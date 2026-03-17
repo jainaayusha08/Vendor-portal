@@ -1,7 +1,7 @@
-.form-field { display: flex; flex-direction: column; gap: 5px; }
+.form-field { display: flex; flex-direction: column; gap: 3px; }
 
 .form-field__label {
-  font-size: 12px; font-weight: 600;
+  font-size: 11px; font-weight: 600;
   text-transform: uppercase; letter-spacing: 0.06em;
   color: var(--text-muted);
 }
@@ -9,8 +9,8 @@
 
 .form-field__input {
   width: 100%;
-  padding: 9px 12px;
-  font-size: 13px;
+  padding: 6px 10px;
+  font-size: 12px;
   border: 1.5px solid var(--border-color);
   border-radius: var(--border-radius-sm);
   background: #fff;
@@ -29,10 +29,10 @@
 .form-field__error { font-size: 11px; font-weight: 600; color: var(--color-danger); }
 
 .form-checkbox {
-  display: flex; align-items: flex-start; gap: 8px;
-  cursor: pointer; font-size: 13px; color: var(--text-color);
+  display: flex; align-items: flex-start; gap: 6px;
+  cursor: pointer; font-size: 12px; color: var(--text-color);
 }
 .form-checkbox input[type="checkbox"] {
-  width: 16px; height: 16px; margin-top: 2px;
+  width: 14px; height: 14px; margin-top: 2px;
   accent-color: var(--primary-color); cursor: pointer; flex-shrink: 0;
 }

@@ -1,7 +1,8 @@
 .dash-layout {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   background: var(--bg-color);
+  overflow: hidden;
 }
 .dash-layout__main {
   flex: 1;
@@ -9,10 +10,11 @@
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
+  height: 100vh;
 }
 .dash-layout__content {
   flex: 1;
-  padding: 24px;
+  padding: 12px;
   overflow-y: auto;
 }
 
@@ -25,7 +27,7 @@
   overflow: hidden;
 }
 .page-card__head {
-  padding: 16px 20px;
+  padding: 10px 12px;
   border-bottom: 1px solid var(--border-color);
   display: flex;
   align-items: center;
@@ -33,16 +35,16 @@
   gap: 12px;
 }
 .page-card__title {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--text-color);
 }
 .page-card__subtitle {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-muted);
   margin-top: 2px;
 }
-.page-card__body { padding: 20px; }
+.page-card__body { padding: 12px; }
 
 /* ── Page title bar ── */
 .page-title-bar {
@@ -50,15 +52,15 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .page-title-bar h2 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
   color: var(--text-color);
 }
 .page-title-bar p {
-  font-size: 13px;
+  font-size: 11px;
   color: var(--text-muted);
   margin-top: 3px;
 }
@@ -68,9 +70,9 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 18px;
+  padding: 6px 10px;
   border-radius: var(--border-radius-sm);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   border: none;
@@ -86,5 +88,5 @@
 .btn-danger { background: var(--color-danger); color: #fff; }
 .btn-danger:hover { background: #b91c1c; }
 .btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
-.btn-sm { padding: 5px 12px; font-size: 11px; }
-.btn-icon { padding: 6px 10px; }
+.btn-sm { padding: 5px 8px; font-size: 10px; }
+.btn-icon { padding: 5px 8px; }

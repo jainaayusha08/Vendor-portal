@@ -14,29 +14,28 @@ import { AdminDashboard, AdminRequests, AdminVendors, AdminWorkflow, SapDashboar
 
 // ── Sidebar nav definitions ───────────────────────────────────────────────────
 const VENDOR_NAV = [
-  { path: '/vendor/dashboard', label: 'Dashboard',              icon: '🏠' },
-  { path: '/vendor/register',  label: 'Register',               icon: '📝' },
-  { path: '/vendor/history',   label: 'History of Applications',icon: '📋' },
-  { path: '/vendor/status',    label: 'Registration Status',    icon: '🔍' },
+  { path: '/vendor/dashboard', label: 'Dashboard',              icon: 'dashboard' },
+  { path: '/vendor/register',  label: 'Register',               icon: 'register' },
+  { path: '/vendor/history',   label: 'History of Applications',icon: 'history' },
+  { path: '/vendor/status',    label: 'Registration Status',    icon: 'status' },
 ]
 const EMPLOYEE_NAV = [
-  { path: '/employee/dashboard',        label: 'Dashboard',          icon: '🏠' },
-  { path: '/employee/create-vendor',    label: 'Create Vendors',     icon: '🔗' },
-  { path: '/employee/my-vendors',       label: 'My Vendors',         icon: '👥' },
-  { path: '/employee/register-yourself',label: 'Register For Yourself', icon: '📝' },
-  { path: '/employee/my-approvers',     label: 'My Approvers',       icon: '🔀' },
-  { path: '/employee/profile',          label: 'My Profile',         icon: '👤' },
+  { path: '/employee/dashboard',        label: 'Dashboard',          icon: 'dashboard' },
+  { path: '/employee/create-vendor',    label: 'Create Vendors',     icon: 'create' },
+  { path: '/employee/my-vendors',       label: 'My Vendors',         icon: 'vendors' },
+  { path: '/employee/register-yourself',label: 'Register For Yourself', icon: 'self' },
+  { path: '/employee/my-approvers',     label: 'My Approvers',       icon: 'approvers' },
 ]
 const ADMIN_NAV = [
-  { path: '/admin/dashboard', label: 'Dashboard',          icon: '🏠' },
-  { path: '/admin/requests',  label: 'List of Requests',   icon: '📥' },
-  { path: '/admin/vendors',   label: 'All Vendors',        icon: '🏢' },
-  { path: '/admin/workflow',  label: 'Workflow Config',    icon: '⚙️' },
+  { path: '/admin/dashboard', label: 'Dashboard',          icon: 'dashboard' },
+  { path: '/admin/requests',  label: 'List of Requests',   icon: 'requests' },
+  { path: '/admin/vendors',   label: 'All Vendors',        icon: 'vendorsAdmin' },
+  { path: '/admin/workflow',  label: 'Workflow Config',    icon: 'workflow' },
 ]
 const SAP_NAV = [
-  { path: '/sap/dashboard',          label: 'Dashboard',         icon: '🏠' },
-  { path: '/sap/export-vendor-data', label: 'Export Vendor Data',icon: '📤' },
-  { path: '/sap/import-vendor-data', label: 'Import Vendor Data',icon: '📥' },
+  { path: '/sap/dashboard',          label: 'Dashboard',         icon: 'dashboard' },
+  { path: '/sap/export-vendor-data', label: 'Export Vendor Data',icon: 'export' },
+  { path: '/sap/import-vendor-data', label: 'Import Vendor Data',icon: 'import' },
 ]
 
 const HOME_BY_ROLE: Record<string, string> = {

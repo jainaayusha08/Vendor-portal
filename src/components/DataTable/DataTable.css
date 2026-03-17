@@ -5,13 +5,13 @@
 }
 .data-table {
   width: 100%; border-collapse: collapse;
-  font-size: 13px;
+  font-size: 12px;
 }
 .data-table thead th {
   background: #f8fafc;
-  padding: 10px 14px;
+  padding: 6px 10px;
   text-align: left;
-  font-size: 11px; font-weight: 700;
+  font-size: 10px; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.06em;
   color: var(--text-muted);
   border-bottom: 1px solid var(--border-color);
@@ -25,13 +25,13 @@
 .data-table tbody tr:last-child { border-bottom: none; }
 .data-table tbody tr:hover { background: #f8fafc; }
 .data-table tbody td {
-  padding: 11px 14px;
+  padding: 6px 10px;
   color: var(--text-color);
   vertical-align: middle;
 }
 .data-table__empty {
   text-align: center;
-  padding: 3rem !important;
+  padding: 1.5rem !important;
   color: var(--text-muted);
   font-style: italic;
 }

@@ -180,20 +180,17 @@ export default function LoginPage() {
     <div className="login-page">
       <div className="login-page__bg" />
       <div className="login-page__inner">
-        {/* Brand */}
-        <div className="login-brand">
-          <div className="login-brand__logo">VRP</div>
-          <div>
-            <h1 className="login-brand__title">Vendor Registration Portal</h1>
-            <p className="login-brand__sub">Hinduja Renewables Energy Pvt. Ltd.</p>
-          </div>
-        </div>
-
         {/* Two panels side-by-side */}
         <div className="login-panels">
-          <VendorLogin />
-          <div className="login-panels__divider"><span>OR</span></div>
-          <EmployeeLogin />
+          <div className="login-panels__header">
+            <img className="login-brand__logo-img" src="/companylogo.svg" alt="Company logo" />
+            <h1 className="login-panels__title">Vendor Portal</h1>
+          </div>
+          <div className="login-panels__content">
+            <VendorLogin />
+            <div className="login-panels__divider"><span>OR</span></div>
+            <EmployeeLogin />
+          </div>
         </div>
 
         <p className="login-footer">© {new Date().getFullYear()} Hinduja Renewables Energy Pvt. Ltd. — Confidential Internal System</p>
