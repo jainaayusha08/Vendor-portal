@@ -1,0 +1,14 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+.status-approved,   .status-active,  .status-synced    { background: var(--color-success-bg); color: var(--color-success); }
+.status-pending-approval, .status-pending, .status-ready { background: var(--color-info-bg);    color: var(--color-info); }
+.status-returned, .status-draft                         { background: var(--color-warning-bg); color: var(--color-warning); }
+.status-rejected, .status-inactive                      { background: var(--color-danger-bg);  color: var(--color-danger); }
